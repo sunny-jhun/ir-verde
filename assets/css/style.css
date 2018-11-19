@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+[class*="col"]{
+	border: 1px solid transparent;	
+}
+.company{
+	font-size: 35px;
+	position: absolute;
+	top:2%;
+	font-family: 'Pattaya', sans-serif;
+	color: black;
+	z-index: 1;
+}
+
+#port-jumbo{
+	/*border: 5px solid rgba(15, 34, 51, 0.74);*/
+	border-radius: 10px;
+	width: 60%;
+	padding: 1em 4em;
+	background-color: rgba(217, 235, 242, 0.3);
+	height: 400px;
+}
+
+#jumbo-div{
+	padding-top: 10%;
+	height: 100vh;
+	/*background-color: rgba(14, 137, 251, 0.66);*/
+	background-image: url(../images/bg1.jpg);
+	border-radius: 0;
+	background-size: cover;
+
+}
+.jumbotron h1{
+	color: black;
+
+}
+.btn a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size:
+   
+}
+
+#welcome{
+	font-family: 'Great Vibes', cursive;
+	font-size: 80px;
+}
+
+#button{
+	width: 200px;
+	margin: 0 auto;
+	background-color: /*rgba(11, 244, 35, 0.82)*/rgba(43, 14, 47, 0.87);
+	position: relative;
+	top: 8%;
+	
+}
+#button:hover{
+	background-color: rgba(188, 36, 171, 0.92);
+
+}
+
+div > div > p >strong{
+	font-family: 'Cormorant Garamond', serif;
+	color: #000000;
+	font-size: 30px;
+}
+
+.nav{
+	background-color: /*rgba(217, 235, 242, 0.3)*/rgba(243, 229, 246, 0.75);
+	position: absolute;
+	left: 0%;
+	top:0%;
+	width: 100%;
+	height: 80px;
+	
+}
+
+.nav-link{
+	color: black;
+	font-family: 'Ledger', serif;
+	background-color: /*rgba(235, 30, 225, 0.82)*//*rgba(171, 68, 187, 0.72)*/;
+	position: relative;
+	top:15%;
+	font-size: 20px;
+}
+
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 400px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    
+
+ .company{
+	font-size: 12px;
+	position: absolute;
+	top:1%;
+	font-family: 'Pattaya', sans-serif;
+	color: black;
+	z-index: 1;
+}
+
+#port-jumbo{
+	/*border: 5px solid rgba(15, 34, 51, 0.74);*/
+	border-radius: 10px;
+	width: 60%;
+	padding: 1em 4em;
+	background-color: rgba(217, 235, 242, 0.3);
+	height: 350px;
+	position: absolute;
+	top: 13%;
+	left: 20%;
+}
+
+#jumbo-div{
+	padding-top: 10%;
+	height: 100vh;
+	/*background-color: rgba(14, 137, 251, 0.66);*/
+	background-image: url(../images/bg1.jpg);
+	border-radius: 0;
+	background-size: cover;
+	background-position: center;
+
+}
+.jumbotron h1{
+	color: black;
+
+}
+.btn a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size:8px;
+   
+}
+
+#welcome{
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+}
+#web{
+	font-size: 12px;
+}
+
+#button{
+	width: 100px;
+	margin: 0 auto;
+	background-color: /*rgba(11, 244, 35, 0.82)*/rgba(43, 14, 47, 0.87);
+	position: relative;
+	top: 5%;
+	height: 30px;
+	
+}
+#button:hover{
+	background-color: rgba(188, 36, 171, 0.92);
+
+}
+
+div > div > p >strong{
+	font-family: 'Cormorant Garamond', serif;
+	color: #000000;
+	font-size: 30px;
+}
+
+.nav{
+	background-color: /*rgba(217, 235, 242, 0.3)*/rgba(243, 229, 246, 0.75);
+	position: absolute;
+	left: 0%;
+	top:0%;
+	width: 100%;
+	height: 50px;
+	
+}
+
+.nav-link{
+	color: black;
+	font-family: 'Ledger', serif;
+	background-color: /*rgba(235, 30, 225, 0.82)*//*rgba(171, 68, 187, 0.72)*/;
+	position: relative;
+	top:15%;
+	font-size: 7px;
+}
+
+
+ }
+
+
+  /*Tablet*/
+
+  @media only screen and (min-width: 401px)
+  and (max-width:960px){
+.company{
+	font-size: 20px;
+	position: absolute;
+	top:1%;
+	font-family: 'Pattaya', sans-serif;
+	color: black;
+	z-index: 1;
+}
+
+#port-jumbo{
+	/*border: 5px solid rgba(15, 34, 51, 0.74);*/
+	border-radius: 10px;
+	width: 60%;
+	padding: 1em 4em;
+	background-color: rgba(217, 235, 242, 0.3);
+	height: 400px;
+	position: absolute;
+	top: 18%;
+	left: 20%;
+}
+
+#jumbo-div{
+	padding-top: 10%;
+	height: 100vh;
+	/*background-color: rgba(14, 137, 251, 0.66);*/
+	background-image: url(../images/bg1.jpg);
+	border-radius: 0;
+	background-size: cover;
+	background-position: center;
+	width: 800px;
+}
+.jumbotron h1{
+	color: black;
+
+}
+.btn a{
+	text-decoration: none;
+	color: #f2f2f2;
+	font-size:13px;
+   
+}
+
+#welcome{
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+}
+#web{
+	font-size: 20px;
+}
+
+#button{
+	width: 150px;
+	margin: 0 auto;
+	background-color: /*rgba(11, 244, 35, 0.82)*/rgba(43, 14, 47, 0.87);
+	position: relative;
+	top: 8%;
+	
+}
+#button:hover{
+	background-color: rgba(188, 36, 171, 0.92);
+
+}
+
+div > div > p >strong{
+	font-family: 'Cormorant Garamond', serif;
+	color: #000000;
+	font-size: 30px;
+}
+
+.nav{
+	background-color: /*rgba(217, 235, 242, 0.3)*/rgba(243, 229, 246, 0.75);
+	position: absolute;
+	left: 0%;
+	top:0%;
+	width: 100%;
+	height: 50px;
+	
+}
+
+.nav-link{
+	color: black;
+	font-family: 'Ledger', serif;
+	background-color: /*rgba(235, 30, 225, 0.82)*//*rgba(171, 68, 187, 0.72)*/;
+	position: relative;
+	top:15%;
+	font-size: 10px;
+}
+
+
+  }
