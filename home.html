@@ -107,7 +107,7 @@
 </div>
 </section>
 
-<section>
+<section class="container">
   <div class="container card-holder">
     <div class="row">
   <div class="card border-success mb-3" style="max-width: 18rem;">
@@ -159,8 +159,8 @@
   <div class="container-fluid event parallax">
            <div class="row">
              <div class="col-6 offset-4">
-               <a href=""> <i class="top-icon far fa-calendar-alt"></i> </a>
-               <a href=""> <i class="top-icon fas fa-link"></i></a>
+               <a href="#event"> <i class="top-icon far fa-calendar-alt"></i> </a>
+               <a href="#lnk"> <i class="top-icon fas fa-link"></i></a>
                <a href=""> <i class="top-icon far fa-compass"></i></a>
                <a href=""> <i class="top-icon fab fa-acquisitions-incorporated"></i></a>
              </div>
@@ -192,7 +192,7 @@
               </div>
           
 
-          <div class="col-5">
+          <div class="col-6 col-md-5">
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
 
@@ -277,7 +277,7 @@
 
   <div class="container round-con">
      <div class="row">
-       <div class="col-6 col-md-12">
+       <div class="col-12 col-md-12">
                <h2 class="text-center">Videos</h2>
 
               <!--  <div id="right" class="col-12 col-md-8">
@@ -327,28 +327,198 @@
                <!--  <iframe class="video" width="150vh" height="150vh" src="https://www.youtube.com/embed/HeQZKGf0p8A" frameborder="2px solid black" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <iframe class="video" width="150vh" height="150vh" src="https://www.youtube.com/embed/yV2EK2bMgwk" frameborder="2px solid black" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-                <h2 class="text-center">Latest Events</h2>
-         
+                <h2 class="text-center" id="event">Latest Events</h2>
+                 
+                    <div class="month"> 
+                      <ul>
+                         <li class="prev">&#10094;</li>
+                         <li class="next">&#10095;</li>
+                         <li>November<br><span style="font-size:18px">2018</span></li>
+                     </ul>
+                    </div>
+
+                      <ul class="weekdays">
+                        <li>Mo</li>
+                        <li>Tu</li>
+                        <li>We</li>
+                        <li>Th</li>
+                        <li>Fr</li>
+                        <li>Sa</li>
+                        <li>Su</li>
+                     </ul>
+
+                     <ul class="days"> 
+                       <li></li>
+                       <li></li>
+                       <li></li>
+                       <li>1</li>
+                       <li>2</li>
+                       <li>3</li>
+                       <li>4</li>
+                       <li>5</li>
+                       <li>6</li>
+                       <li>7</li>
+                       <li>8</li>
+                       <li>9</li>
+                       <li>10</li>
+                       <li>11</li>
+                       <li>12</li>
+                       <li>13</li>
+                       <li>14</li>
+                       <li>15</li>
+                       <li>16</li>
+                       <li>17</li>
+                       <li>18</li>
+                       <li>19</li>
+                       <li>20</li>
+                       <li>21</li>
+                       <li><span class="active">22</span></li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">23</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">24</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">25</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">26</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">27</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">28</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">29</li>
+                       <li class="date-modal" data-toggle="modal" data-target="#modal-1">30</li>
+  
+                      </ul>
+
+
+      <!-- modal itself -->
+          <div id="modal-1" class="modal fade">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <header class="modal-header">
+                  <h5 class="modal-title">Pine</h5>
+                  <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+                </header>
+                <div class="modal-body">
+                  <img class="img-fluid" src="assets/images/pine.jpeg">
+                </div>
+                <footer class="modal-footer">
+                  <button class="btn btn-danger" data-dismiss="modal">Bye</button>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        </div>
      </div>
  </div>
 
     
- <div class="container-fluid related parallax">
-    <div class="row">
-     
-             <div class="col-6 offset-4">
+ <div class="container-fluid related parallax" id="lnk">
+
+
+   <div class="row">
+    <!--  <div class="col-12 col-md-4"> -->
+       <div class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+         <div class="sf_colsIn col-md-9" data-sf-element="Column 1" data-placeholder="Column 1">
+           <div class="main-navigation-wrapper">
+             <ul class="main-navigation navVertical">
+               <li class="li-wrap">
+                 <h4>Issues and Campaigns</h4>
+                 <ul class="sub-level">
+                   <li class> <a href="">Green Nation</a></li>
+                   <li class> <a href="">Friendly Environment</a></li>
+                   <li class> <a href="">Preserve the Ozone</a></li>
+                   <li class> <a href="">National Synergy</a></li>
+                   <li class> <a href="">Save the Earth</a></li>
+                   <li class> <a href="">Fight for All</a></li>
+                   <li class> <a href="">Global Answer</a></li>
+                   <li class> <a href="">Industrial Green</a></li>
+                 </ul>
+               </li> 
+
+               <li class="li-wrap">
+                 <h4>Related Sites</h4>
+                 <ul class="sub-level">
+                   <li class> <a href="">Go Green Iniative</a></li>
+                   <li class> <a href="">Sierra Club</a></li>
+                   <li class> <a href="">Audobon</a></li>
+                   <li class> <a href="">World Wildlife Fund</a></li>
+                   <li class> <a href="">Earth First</a></li>
+                   <li class> <a href="">National Wildlife Federation</a>
+                   </li>
+                   <li class> <a href="">1% For The Planet</a></li>
+                   <li class> <a href="">The Nature Conservancy</a></li>
+                   <li class> <a href="">Heal the Bay</a></li> 
+                   <li class> <a href="">Environmental Defense Fund</a></li> 
+                   <li class> <a href="">Friends of the Earth </a></li> 
+                   <li class> <a href="">Worldwatch Institute</a></li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+               
+    <!-- </div> -->
+  </div>
+
+  <div class="row">
+    <!--  <div class="col-12 col-md-4"> -->
+       <div class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+         <div class="sf_colsIn col-md-9" data-sf-element="Column 1" data-placeholder="Column 1">
+           <div class="main-navigation-wrapper">
+             <ul class="main-navigation navVertical">
+               <li class="li-wrap1">
+                 <h4>Give</h4>
+                 <ul class="sub-level">
+                   <li class> <a href="">Donate Now</a></li>
+                   <li class> <a href="">Membership</a></li>
+                   <li class> <a href="">Gift Catalog</a></li>
+                   <li class> <a href="">Be Volunteer</a></li>
+                   
+                 </ul>
+               </li> 
+             </ul>
+           </div>
+         </div>
+       </div>
+           
+
+    <!-- </div> -->
+  </div>
+   <div class="row">
+  <div class="col-12 col-md-12">
+       
+                 
+               <div class="ic-botom">
+                <h4>Connect with Us</h4>
                <a href=""> <i class="icon-bottom fab fa-facebook"></i></a>
                <a href=""> <i class="icon-bottom fab fa-youtube"></i></a>
                <a href=""> <i class="icon-bottom fab fa-instagram"></i></a>
                <a href=""> <i class="icon-bottom fab fa-twitter-square"></i></a>
-             </div>
-           
-    </div>
-
+               </div>
+                    
+                   
+                
+               
+  </div>   
+   </div> 
+             
+       <button class="btn donate"><a href="DONATE"></a></button>
 </div>
-  </div>
-</div>
+  
 
 <footer class="footer">
   <p class="foot-text text-center mb-0 p-2">Ir Verde |Tuitt Coding Bootcamp</p>

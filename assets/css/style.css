@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'Raleway', sans-serif;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 [class*="col"]{
 	border: 1px solid transparent;	
@@ -116,6 +119,8 @@ div > div > p >strong{
 	margin-top: 2%;
 	text-align: center;
 }
+
+
 .event{
 	height: 100vh;
 	background-image:url(../images/charly.jpeg);
@@ -156,15 +161,15 @@ div > div > p >strong{
 
 }
 .top-icon{
-    font-size: 4em;
+    font-size: 3em;
     color: rgba(2, 15, 18, 1);
-    margin-left: 6%;
+    margin-left: 7%;
 }
 
 .round-con{
 	height: 100vh;
-	border-right: 5px double green;
-	border-left: 5px double green;
+	border-right: 10px double green;
+	border-left: 10px double green;
 }
 .video{
 	margin-left: 5%;
@@ -177,47 +182,257 @@ div > div > p >strong{
 	 width: 300px;
 }
 
+
+
 .related{
 	height: 100vh;
-	background-image: url(../images/pine.jpeg);
+	background-image: url(../images/bgplan.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 
 }
+
 .icon-bottom{
-	font-size: 4em;
+	font-size: 3em;
     color: rgba(2, 15, 18, 1);
     margin-left: 6%;
+}
+.ic-botom{
+	
+	margin-left: 30%;
+	margin-top: -5%;
+	
+}
+
+#issues{
+	border-bottom: 5px solid green;
 }
  
  /*about page*/
  #mission{
- 	background-image: url(../images/bgmission.jpeg);
- 	height: 100vh;
+ 	/*background-image: url(../images/bgmissionf.jpeg);*/
+ 	height: 90vh;
  	background-size: cover;
  	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
  }
  .mis-text{
  	background-color: rgba(243, 225, 254, 0.5);
  }
+ .img-mis{
+ 	height: 40%;
+ }
+ .img-vis{
+ 	height: 40%;
+ }
 
  #vision{
- 	background-image: url(../images/bgvision.jpeg);
+ 	/*background-image: url(../images/bgvissionf.jpeg);*/
+ 	height: 80vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+ }
+ .vis{
+ 	background-color: rgba(255, 255, 255, 0.48);
+ }
+
+ #history{
  	height: 100vh;
  	background-size: cover;
  	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border-right: 10px double green;
+	border-left: 10px double green;
+
+	
  }
 
- /*contact page*/
+.his-text{
+	color: black;
+}
 
+.text-his{
+	background-color: rgba(191, 255, 173, 0.48);
+	width: 90%;
+	margin: 0 auto;
+}
+
+#pursuit{
+	background-image: url(../images/bg10.jpeg);
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.purs{
+	background-image: url(../images/1111.jpg);
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.purs-1{
+    height: 100vh;
+	border-right: 10px double green;
+	border-left: 10px double green;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.date-modal:hover{
+	color: #000000;
+	background-color: rgba(51, 235, 0, 0.52);
+	font-size: 1em;
+}
+.month {
+    padding: 40px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+.li-wrap{
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+
+.li-wrap1{
+  
+  margin-left: 3%;
+  margin-top: -5%;
+  
+}
+.galimg-1{
+	margin-top: 12%;
+}
+.galtext-1{
+	height: 60vh;
+}
+.galimg-2{
+	margin-right: 10%;
+	margin-top: 12%;
+}
+
+
+
+ /*contact page*/
+.his-2{
+    height: 90vh;
+    width: 95%;
+    margin: 0 auto;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image:  url(../images/bghy.jpg);
+}
  
  .contact{
- 	height: 100vh;
+ 	height: 150vh;
  	background-image: url(../images/bgcontact.jpeg);
  	background-size: cover;
  	background-position: center;
+ 	background-attachment: fixed;
+ }
+ .contact-1{
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 50vh;
+ 	border-right: 10px double #119400;
+ 	border-left:  10px double #119400;
+ 	/*background-image: url(../images/bgcontact.jpeg);*/
+ }
+ .map{
+ 	margin-top: 4%;
+ }
+
+
+ #org{
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: url(../images/pine.jpeg);
+	
  }
 
 /*home page*/
@@ -226,6 +441,9 @@ div > div > p >strong{
 	padding: 25%;
 	background-color: rgba(26, 74, 91, 0.52);
 }
+
+/*pursuit page*/
+
 
 
 
@@ -331,6 +549,14 @@ div > div > p >strong{
 	height:20px;
 	border-radius: 10%;
 	
+}
+
+#mission {
+	height: 100%;
+}
+
+#vision{
+	height: 100%;
 }
 
  }
