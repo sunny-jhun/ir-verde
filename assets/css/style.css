@@ -451,6 +451,10 @@ body {font-family: Verdana, sans-serif;}
  	border-left:  10px double #119400;
  	/*background-image: url(../images/bgcontact.jpeg);*/
  }
+
+ .touch{
+ 	font-family: 'Bree Serif', serif;
+ }
  .map{
  	margin-top: 4%;
  }
@@ -808,7 +812,7 @@ div > div > p >strong{
 	overflow: hidden; 
 }
 
- 
+
 }
 
 
