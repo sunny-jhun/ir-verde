@@ -163,7 +163,7 @@ div > div > p >strong{
 .top-icon{
     font-size: 3em;
     color: rgba(2, 15, 18, 1);
-    margin-left: 7%;
+    margin-left: 6%;
 }
 
 .round-con{
@@ -241,6 +241,13 @@ div > div > p >strong{
  	background-color: rgba(255, 255, 255, 0.48);
  }
 
+ #viss{
+ 	margin-top:  5%;
+ }
+ #viss-txt{
+     margin-top:  5%;
+ }
+
  #history{
  	height: 100vh;
  	background-size: cover;
@@ -255,12 +262,19 @@ div > div > p >strong{
 
 .his-text{
 	color: black;
+
 }
 
+
+
 .text-his{
-	background-color: rgba(191, 255, 173, 0.48);
+	background-color: rgba(255, 255, 255, 0.63);
 	width: 90%;
 	margin: 0 auto;
+	font-size: 1em;
+	padding-top: 2% ;
+	padding-left: 2% ;
+	padding-right: 2%;
 }
 
 #pursuit{
@@ -282,10 +296,22 @@ div > div > p >strong{
 
 }
 
+.crd{
+
+}
+
 .purs-1{
     height: 100vh;
 	border-right: 10px double green;
 	border-left: 10px double green;
+}
+#energy{
+	margin-top: 5%;
+}
+
+.qt{
+	background-color: rgba(255, 255, 255, 0.81);
+	margin-top: 5%;
 }
 
 ul {list-style-type: none;}
@@ -382,9 +408,11 @@ body {font-family: Verdana, sans-serif;}
 }
 .galimg-1{
 	margin-top: 12%;
+	padding: 0;
 }
 .galtext-1{
 	height: 60vh;
+	padding: 0;
 }
 .galimg-2{
 	margin-right: 10%;
@@ -402,8 +430,11 @@ body {font-family: Verdana, sans-serif;}
  	background-position: center;
  	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image:  url(../images/bghy.jpg);
+	background-image:  url(../images/bamboo.jpeg);
+
 }
+
+
  
  .contact{
  	height: 150vh;
@@ -444,6 +475,25 @@ body {font-family: Verdana, sans-serif;}
 
 /*pursuit page*/
 
+#tiger-img{
+	width: 100%;
+}
+
+#panda-img{
+	width: 100%;
+}
+
+#panda{
+	margin-top: 2%;
+}
+.panda-text{
+	margin-top: 2%;
+}
+.donate{
+	margin-top: 10%;
+	border-left: 10px double green;
+	border-right: 10px double green;
+}
 
 
 
@@ -455,7 +505,17 @@ body {font-family: Verdana, sans-serif;}
   and (max-device-width: 400px)
   and (-webkit-min-device-pixel-ratio: 2){
     
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
+#burger{
+	font-color: black;
+}
  .company{
 	font-size: 10px;
 	position: absolute;
@@ -551,15 +611,77 @@ div > div > p >strong{
 	
 }
 
-#mission {
+.round-con{
 	height: 100%;
-}
+	overflow: hidden;
+	}
 
-#vision{
+.event{
 	height: 100%;
-}
+	padding:0;
+	overflow: hidden;
 
  }
+
+ .related{
+ 	height: 100%;
+ 	padding: 0;
+ 	overflow: hidden;
+ }
+
+ .icon-bottom{
+	font-size: 1em;
+    color: rgba(2, 15, 18, 1);
+    margin-left: 6%;
+}
+
+.li-wrap1{
+  
+  margin-left: 3%;
+  margin-top: -8%;
+
+}
+.top-icon{
+    font-size: 2em;
+    color: rgba(2, 15, 18, 1);
+    margin-left: 0;
+}
+.list-group{
+  position: relative;
+  top: 0%;
+}
+
+.tab-content{
+	position: relative;
+	top: 10%;
+
+}
+.con{ 
+	overflow: hidden; 
+}
+
+.his-2{
+    height: 223vh;
+    width: 95%;
+    margin: 0 auto;
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image:  url(../images/bamboo.jpeg);
+
+}
+
+.purs{
+
+ 	height: 100%;
+ 	
+
+}
+
+}
+
+
 
 
   /*Tablet*/
@@ -660,4 +782,33 @@ div > div > p >strong{
 	
 }
 
-  }
+.round-con{
+	/*height: 100%;*/
+	overflow: hidden;
+	}
+
+.event{
+	/*height: 100%;
+	padding:0;*/
+	overflow: hidden;
+
+ }
+
+ .related{
+ 	/*height: 100%;
+ 	padding: 0;*/
+ 	overflow: hidden;
+ }
+.li-wrap1{
+  
+  margin-left: 3%;
+  margin-top: 0%;
+ }
+.con{ 
+	overflow: hidden; 
+}
+
+ 
+}
+
+
