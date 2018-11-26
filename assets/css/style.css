@@ -124,9 +124,10 @@ div > div > p >strong{
 }
 .card{
 	
-	margin-left: 6%;
+	/*margin-left: 6%;*/
 	margin-top: 2%;
 	text-align: center;
+	margin-top: 0 auto;
 }
 
 
