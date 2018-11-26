@@ -137,6 +137,7 @@ div > div > p >strong{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-image: url(assets/images/);
+	overflow: hidden;
 }
 
 
@@ -172,13 +173,14 @@ div > div > p >strong{
 .top-icon{
     font-size: 3em;
     color: rgba(2, 15, 18, 1);
-    margin-left: 4%;
+    margin: 0 auto;
 }
 
 .round-con{
 	height: 100vh;
 	border-right: 10px double green;
 	border-left: 10px double green;
+	overflow: hidden;
 }
 .video{
 	margin-left: 5%;
@@ -200,6 +202,7 @@ div > div > p >strong{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	overflow: hidden;
 
 }
 
@@ -310,6 +313,7 @@ div > div > p >strong{
  	background-position: center;
  	background-repeat: no-repeat;
 	background-attachment: fixed;
+	overflow: hidden;
 
 }
 
@@ -321,6 +325,13 @@ div > div > p >strong{
     height: 100vh;
 	border-right: 10px double green;
 	border-left: 10px double green;
+	overflow: hidden;
+}
+.topic{
+	overflow: hidden;
+}
+#vid{
+	overflow: hidden;
 }
 #energy{
 	margin-top: 5%;
@@ -654,6 +665,7 @@ div > div > p >strong{
  }
 #event{
 	background-image: none;
+	overflow: hidden;
 }
  .sidelist {
  	position: relative;
