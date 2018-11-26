@@ -124,10 +124,9 @@ div > div > p >strong{
 }
 .card{
 	
-	/*margin-left: 6%;*/
+	margin-left: 6%;
 	margin-top: 2%;
 	text-align: center;
-	margin-top: 0 auto;
 }
 
 
@@ -315,7 +314,7 @@ div > div > p >strong{
 }
 
 .crd{
-
+     margin: 0 auto;
 }
 
 .purs-1{
