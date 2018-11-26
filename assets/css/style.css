@@ -426,16 +426,23 @@ body {font-family: Verdana, sans-serif;}
 .galimg-1{
 	margin-top: 12%;
 	padding: 0;
+	margin: 0 auto;
 }
 .galtext-1{
 	height: 60vh;
 	padding: 0;
+	margin: 0 auto;
 }
 .galimg-2{
 	margin-right: 10%;
 	margin-top: 12%;
+	margin: 0 auto;
 }
-
+.galtext-2{
+	height: 60vh;
+	padding: 0;
+	margin: 0 auto;
+}
 
 
  /*contact page*/
@@ -724,6 +731,19 @@ div > div > p >strong{
 
       
 }
+
+.galtext-1{
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.galtext-2{
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+
 
 }
 
