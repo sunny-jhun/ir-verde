@@ -635,6 +635,10 @@ div > div > p >strong{
 	
 }
 
+.touch{
+	font-size: 1em;
+}
+
 .nav-link{
 	color: black;
 	font-family: 'Ledger', serif;
